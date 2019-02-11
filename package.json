@@ -1,0 +1,42 @@
+{
+  "fitbit": {
+    "appUUID": "fbb869d5-bb8a-42a1-85d6-2e97508ca080",
+    "appType": "clockface",
+    "appDisplayName": "HKH Digital and analog",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [
+      "access_activity",
+      "access_heart_rate"
+    ],
+    "buildTargets": [
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "HKH Digital and analog"
+      },
+      "de": {
+        "name": "HKH Digital und analog"
+      },
+      "es": {
+        "name": "HKH Digital y analógico"
+      },
+      "fr": {
+        "name": "HKH Numérique et analogique"
+      },
+      "it": {
+        "name": "HKH Digitale e analogico"
+      },
+      "nl": {
+        "name": "HKH Digitaal en analoog"
+      },
+      "sv": {
+        "name": "HKH Digital och analog"
+      }
+    }
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~3.0.0"
+  }
+}

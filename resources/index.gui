@@ -1,0 +1,105 @@
+<svg class="background">
+  <text id="dateData" x="150" y="25" text-length="30" text-anchor="middle" />
+  <text id="clockData" x="150" y="125" text-length="5" text-anchor="middle" />
+
+  <text id="batteryPercentage" x="50" y="172" text-length="4" />
+  <text id="heartbeatsData" x="50" y="214" text-length="4" />
+  <text id="stepsData" x="50" y="256" text-length="8" />
+  <text id="distanceData" x="50" y="298" text-length="8" />
+
+  <image id="batteryGreen" href="BatteryGreen.png" x="1" y="150" width="38" height="24" display="none" />
+  <image id="batteryYellow" href="BatteryYellow.png" x="1" y="150" width="38" height="24" display="none" />
+  <image id="batteryRed" href="BatteryRed.png" x="1" y="150" width="38" height="24" display="none" />
+
+  <image id="heart" href="Heart.png" x="15" y="192" width="24" height="24" display="inline" />
+  <image id="steps" href="Steps.png" x="15" y="234" width="24" height="24" display="inline" />
+  <image id="distance" href="Distance.png" x="15" y="276" width="24" height="24" display="inline" />
+
+  <symbol id="clock-widget" class='clock-widget' type='clock-widget'
+        focusable='false' pointer-events='visible' system-events='all'
+        x='150' y='150' width='50%' height='50%' data-size='16'/>
+
+  <rect id="tickrect" x="150" y="150" width="150" height="150" fill="black" />
+
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="6" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="6" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="6" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="6" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="6" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="6" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="6" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="6" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="6" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="6" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="6" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="6" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+  <line class="minutes" x1="0" y1="0" x2="0" y2="0" fill="white" stroke-width="2" />
+
+  <use id="analog-watch-hands" href='#clock-widget' display="inline">
+    <!-- clock hands -->
+    <g transform='translate(50%,50%)'>
+      <g id="minute-hand">
+        <rect x="-4" y="-65" width="6" height="65" fill="black" />
+        <rect x="-2" y="-63" width="4" height="63" fill="white" />
+      </g>
+      <g id="hour-hand">
+        <rect x="-6" y="-50" width="10" height="50" fill="black" />
+        <rect x="-4" y="-48" width="8" height="48" fill="dodgerblue" />
+      </g>
+      <g id="second-hand">
+        <line id="secondHand" x1="0" y1="-75" x2="0" y2="30" stroke-width="2" fill="orange" />
+      </g>
+      <g id="dot">
+        <circle cx="0" cy="0" r="11" fill="orange"/>
+        <circle cx="0" cy="0" r="7" fill="black"/>
+      </g>
+    </g>
+  </use>
+</svg>

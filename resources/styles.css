@@ -1,0 +1,41 @@
+.background
+{
+  viewport-fill: black;
+}
+
+#dateData
+{
+  font-size: 24;
+  fill: white;
+}
+
+#clockData
+{
+  font-family: System-Bold;
+  font-size: 115;
+  fill: dodgerblue;
+}
+
+#batteryPercentage
+{
+  font-size: 28;
+  fill: white;
+}
+
+#heartbeatsData
+{
+  font-size: 28;
+  fill: white;
+}
+
+#stepsData
+{
+  font-size: 28;
+  fill: white;
+}
+
+#distanceData
+{
+  font-size: 28;
+  fill: white;
+}
